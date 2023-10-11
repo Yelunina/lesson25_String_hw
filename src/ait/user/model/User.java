@@ -89,7 +89,7 @@ public class User {
             if (Character.isDigit(c)) {
                 res4 = true;
             }
-            if ("!%@*&".indexOf(c) >= 0) {
+            if ("!%@*$&".indexOf(c) >= 0) {
                 res5 = true;
             }
         }
