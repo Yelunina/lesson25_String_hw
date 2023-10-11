@@ -4,20 +4,11 @@ import ait.user.model.User;
 
 public class UserAppl {
     public static void main(String[] args) {
-        User user = new User("peter@gmx.de", "123456Ira!");
+        User user = new User("peter@gmx.de", ",hfvb5Рjhg!");
         System.out.println(user);
 
-        user.setPassword("3141592Ira@");
+        user.setPassword("mshbc5Y@lk");
         System.out.println(user);
-        user.setPassword("3141592Ira");
-        System.out.println(user);
-        user.setPassword("3141592ra@");
-        System.out.println(user);
-        user.setPassword("3141592I@");
-        System.out.println(user);
-        user.setPassword("aaaaaaIra@");
-        System.out.println(user);
-        user.setPassword("311Ira@");
-        System.out.println(user);
+
     }
 }
